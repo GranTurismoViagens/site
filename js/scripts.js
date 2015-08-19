@@ -111,7 +111,7 @@ $(document).ready(function() {
 	$("#form-orcamento").submit(function(e) {
 		e.preventDefault();
 		$.ajax({
-		    url: "//formspree.io/cleber@cleberar.com", 
+		    url: "//formspree.io/granturismocontato@gmail.com", 
 		    method: "POST",
 		    data: $("#form-orcamento").serializeArray(),
 		    dataType: "json",
@@ -124,7 +124,7 @@ $(document).ready(function() {
 	$("#form-contato").submit(function(e) {
 		e.preventDefault();
 		$.ajax({
-		    url: "http://formspree.io/cleber@cleberar.com", 
+		    url: "http://formspree.io/granturismocontato@gmail.com", 
 		    method: "POST",
 		    data: $("#form-contato").serializeArray(),
 		    dataType: "json",
